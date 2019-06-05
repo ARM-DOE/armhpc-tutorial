@@ -1,0 +1,22 @@
+name: daskenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - cython
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - xarray
+  - netcdf4
+  - nose
+  - basemap
+  - trmm_rsl
+  - wradlib
+  - cartopy
+  - scikit-fuzzy
+  - dask
+  - dask-jobqueue
+  - coincbc=2.9.9
